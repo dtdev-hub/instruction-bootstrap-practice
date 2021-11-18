@@ -14,13 +14,71 @@
     <!-- GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
     <!-- HEADER -->
-    <header></header>
+    <header>
+        <div class="header__top d-flex justify-content-between align-items-center container-fluid py-2">
+            <div class="header__left">
+                <a href="tel:096.105.1014" class="text-white mr-4"><i class="fas fa-phone-alt"></i> 096.105.1014</a>
+                <a href="mailto:info@cybersoft.edu.vn" class="text-white"><i class="far fa-envelope"></i>
+                    info@cybersoft.edu.vn</a>
+            </div>
+            <div class="header__right">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <nav class="navInstruction navbar navbar-expand-lg container">
+            <a class="navbar-brand text-center" href="#">
+                <p class="font-weight-bold mb-0"><i class="fa fa-book"></i> INSTRUCTION</p>
+                <p>EDUCATION</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarInstruction"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarInstruction">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">GALLERY</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-expanded="false">
+                            PAGES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Codes</a>
+                            <a class="dropdown-item" href="#">Icons</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <!-- CAROUSEL -->
     <div class="cyberCarousel"></div>
