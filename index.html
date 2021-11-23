@@ -19,6 +19,10 @@
         integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="./css/index.css">
 </head>
@@ -282,7 +286,83 @@
     </div>
 
     <!-- FEEDBACK -->
-    <div class="feedback"></div>
+    <div class="feedback section">
+        <div class="heading heading--white">
+            <h2>TESTIMONIALS</h2>
+            <p>When Climbing The Career Ladder</p>
+        </div>
+        <div class="container">
+            <div class="feedback__content">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="feedback__top">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ut consequatur
+                                exercitationem natus, quaerat maxime aperiam nulla deleniti!</p>
+                        </div>
+                        <div class="feedback__bottom">
+                            <img src="./img/test1.jpg" alt="">
+                            <div class="feedback__name">
+                                <p>Mary Jane</p>
+                                <p>Lorem, ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="feedback__top">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ut consequatur
+                                exercitationem natus, quaerat maxime aperiam nulla deleniti!</p>
+                        </div>
+                        <div class="feedback__bottom">
+                            <img src="./img/test2.jpg" alt="">
+                            <div class="feedback__name">
+                                <p>Peter</p>
+                                <p>Lorem, ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="feedback__top">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ut consequatur
+                                exercitationem natus, quaerat maxime aperiam nulla deleniti!</p>
+                        </div>
+                        <div class="feedback__bottom">
+                            <img src="./img/test3.jpg" alt="">
+                            <div class="feedback__name">
+                                <p>Steven</p>
+                                <p>Lorem, ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="feedback__top">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ut consequatur
+                                exercitationem natus, quaerat maxime aperiam nulla deleniti!</p>
+                        </div>
+                        <div class="feedback__bottom">
+                            <img src="./img/test1.jpg" alt="">
+                            <div class="feedback__name">
+                                <p>Wilson</p>
+                                <p>Lorem, ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="feedback__top">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ut consequatur
+                                exercitationem natus, quaerat maxime aperiam nulla deleniti!</p>
+                        </div>
+                        <div class="feedback__bottom">
+                            <img src="./img/test2.jpg" alt="">
+                            <div class="feedback__name">
+                                <p>Guptil</p>
+                                <p>Lorem, ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- NEWS -->
     <div class="news"></div>
@@ -299,6 +379,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
+
+    <!-- OWL CAROUSEL -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
 </body>
 
 </html>
