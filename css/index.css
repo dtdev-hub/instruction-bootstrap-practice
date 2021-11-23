@@ -152,7 +152,7 @@ html, body{
 }
 
 /* WELCOME */
-.welcome__content p{
+.welcome__content>p{
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -161,4 +161,29 @@ html, body{
     color: #999;
     letter-spacing: 1px;
     padding: 1rem 0 5rem;
+}
+.welcome__item i{
+    font-size: 2rem;
+}
+.welcome__item h3{
+    color: #ff4f81;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.welcome__item h4{
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem 0 0.2rem;
+}
+.welcome__item p{
+    color: #999;
+    font-size: 15px;
+    line-height: 1.8rem;
+    letter-spacing: 1px;
+    margin-right: 10px 0 0;
+}
+.welcome__col{
+    padding: 2rem;
 }
