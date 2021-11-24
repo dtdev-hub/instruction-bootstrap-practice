@@ -361,3 +361,95 @@ html, body{
 #cyberModal .modal-dialog{
     max-width: 600px;
 }
+
+/* FOOTER */
+footer{
+    background-color: #141415;
+}
+.footer__form{
+    margin-top: 3rem;
+}
+.footer__top h3{
+    color: #ff4f81;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+}
+.footer__top p{
+    color: #8b8b96;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 2em;
+    margin-bottom: 2rem;
+}
+.footer__link,.footer__contact{
+    margin-bottom: 1rem;
+}
+.footer__link i{
+    color: #ff4f81;
+    margin-right: 1rem;
+}
+.footer__link a,.footer__contact a{
+    color: #8b8b96;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    transition: all .5s;
+}
+.footer__link a:hover,.footer__contact a:hover{
+    color: white;
+}
+.footer__contact i{
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #4b4b50;
+    line-height: 32px;
+    text-align: center;
+    margin-right: 1rem;
+}
+.footer__form label{
+    color: #ff4f81;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.footer__form input{
+    border: none;
+    border-radius: 0;
+    color: #888;
+    letter-spacing: 1px;
+    padding: 14px;
+    height: auto;
+}
+.footer__form button{
+    background-color: #ff4f81;
+    border-radius: 0;
+    color: white;
+    letter-spacing: 1px;
+    outline: none;
+    padding: 12px 35px;
+    transition: all .5s;
+}
+.footer__form button:hover{
+    background-color: #ec1995;
+    color: white;
+}
+
+.footer__bottom{
+    background-color: #0f0f10;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 1rem 0;
+}
+.footer__bottom a{
+    color: #ff4f81;
+    text-decoration: none;
+    transition: all .5s;
+}
+.footer__bottom a:hover{
+    color: white;
+}
