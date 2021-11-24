@@ -342,3 +342,22 @@ html, body{
 .news__content .row:last-child{
     margin-top: 5rem;
 }
+
+/* MODAL */
+/* #cyberModal img{
+    width: 100%;
+} */
+#cyberModal h5{
+    color: #ff4f81;
+    font-size: 29px;
+    font-weight: bold;
+}
+#cyberModal p{
+    color: #777;
+    font-size: 14px;
+    line-height: 1.8rem;
+    padding: 20px 0;
+}
+#cyberModal .modal-dialog{
+    max-width: 600px;
+}
