@@ -469,6 +469,7 @@ footer{
 /***** RESPONSIVE *****/
 /* HEADER */
 @media screen and (max-width:1199.98px) {
+    /* CAROUSEL */
     #carouselCyber .carousel-caption{
         top: 50%;
     }
@@ -485,6 +486,7 @@ footer{
     }
 }
 @media screen and (max-width:991.98px) {
+    /* HEADER */
     .navInstruction .navbar-brand p:first-child{
         /* 3% so với width của trình duyệt */
         font-size: 3vw;
@@ -495,6 +497,7 @@ footer{
     }
 }
 @media screen and (max-width:767.98px) {
+    /* HEADER */
     #navbarInstruction .navbar-nav{
         background-color: #eee;
         text-align: center;
@@ -508,7 +511,8 @@ footer{
         color: black;
     }
 }
-@media screen and (max-width:414px) {
+@media screen and (max-width:415px) {
+    /* CAROUSEL */
     #carouselCyber{
         height: 250px;
     }
@@ -520,11 +524,13 @@ footer{
     }
 }
 @media screen and (max-width:575.98px) {
+    /* HEADER */
     .header__left a{
         display: block;
     }
 }
 @media screen and (max-width:320px) {
+    /* HEADER */
     .header__right{
         width: 35%;
         text-align: center;
@@ -534,6 +540,7 @@ footer{
     }
 }
 @media screen and (min-width:768px) and (max-width:992px){
+    /* HEADER */
     #navbarInstruction .nav-item{
         margin: 0;
         padding: 0 2px;
@@ -543,3 +550,14 @@ footer{
         padding: 5px;
     }
 }
+@media screen and (min-width:575px) and (max-width:992px){
+    .feedback__bottom{
+        width: 85%;
+    }
+}
+@media screen and (max-width:375px){
+    .feedback__bottom{
+        width: 100%;
+    }
+}
+
