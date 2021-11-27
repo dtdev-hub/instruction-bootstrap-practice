@@ -524,6 +524,9 @@ footer{
     }
 }
 @media screen and (max-width:575.98px) {
+    .heading p{
+        padding: 0 15px;
+    }
     /* HEADER */
     .header__left a{
         display: block;
@@ -560,4 +563,3 @@ footer{
         width: 100%;
     }
 }
-
