@@ -129,7 +129,7 @@ html, body{
 
 /* CAROUSEL */
 #carouselCyber .carousel-caption{
-    /* chỉ áp dụng với thẻ có position: absolute */
+    /* only applies to tags that are set position: absolute */
     top: 55%;
     left: 50%;
 
@@ -397,6 +397,8 @@ footer{
 }
 .footer__link,.footer__contact{
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
 }
 .footer__link i{
     color: #ff4f81;
@@ -488,11 +490,11 @@ footer{
 @media screen and (max-width:991.98px) {
     /* HEADER */
     .navInstruction .navbar-brand p:first-child{
-        /* 3% so với width của trình duyệt */
+        /* 3% of screen width */
         font-size: 3vw;
     }
     .navInstruction .navbar-brand p:last-child{
-        /* 3% so với width của trình duyệt */
+        /* 3% of screen width */
         font-size: 1.5vw;
     }
 }
@@ -530,6 +532,12 @@ footer{
     /* HEADER */
     .header__left a{
         display: block;
+    }
+    /* FOOTER */
+    .footer__form input, .footer__form button{
+        padding: 10px;
+        border: none;
+        font-size: 14px;
     }
 }
 @media screen and (max-width:320px) {
