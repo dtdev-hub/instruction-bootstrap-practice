@@ -1,5 +1,5 @@
-# InstructionCyber.github.io
+# Instruction Education Webpage
 
-> ⚠️ This project is deprecated and no longer maintained.
+> 🌐 [Live Demo](https://dtdev-hub.github.io/instruction-bootstrap-practice/)
 
-Building a website to learn and practice Bootstrap framework
+A simple static website built for practicing Bootstrap.
